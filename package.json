@@ -1,0 +1,20 @@
+{
+  "name": "graphqlbasics",
+  "version": "1.0.0",
+  "description": "graphql basics",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node"
+  },
+  "author": "Annie Taylor CHEN",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "graphql-yoga": "^1.18.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0"
+  }
+}
